@@ -5,9 +5,15 @@ export default function App() {
       {/* HERO */}
       <section className="bg-blue-600 text-white py-16 px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl font-bold">
-            Experts Coaching Center
-          </h1>
+          <div className="flex flex-col items-center gap-2">
+            <div className="bg-white text-blue-600 font-bold px-3 py-1 rounded">
+              ECC
+            </div>
+
+            <h1 className="text-3xl sm:text-4xl font-bold">
+              Experts Coaching Center
+            </h1>
+          </div>
 
           <p className="mt-4 text-base sm:text-lg opacity-90">
             Classes 6–10 • Small Batches • Personal Attention

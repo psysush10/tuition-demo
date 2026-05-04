@@ -3,33 +3,18 @@ export default function App() {
     <div className="bg-white text-gray-800">
 
       {/* HERO */}
-      <section className="bg-blue-600 text-white py-16 px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col items-center gap-2">
-            <div className="bg-white text-blue-600 font-bold px-3 py-1 rounded">
-              ECC
-            </div>
+      <div className="bg-blue-600 text-white text-center py-10 px-4">
+        <h1 className="text-3xl font-bold">
+          Experts Academy
+        </h1>
+        <p className="mt-2 text-sm">
+          CBSE | ICSE | State Board Coaching (Classes 6–12)
+        </p>
 
-            <h1 className="text-3xl sm:text-4xl font-bold">
-              Experts Coaching Center
-            </h1>
-          </div>
-
-          <p className="mt-4 text-base sm:text-lg opacity-90">
-            Classes 6–10 • Small Batches • Personal Attention
-          </p>
-
-          <div className="mt-6 flex justify-center gap-3">
-            <button className="bg-white text-blue-600 px-6 py-2 rounded-lg font-medium shadow hover:scale-105 transition">
-              Enroll Now
-            </button>
-
-            <button className="border border-white px-6 py-2 rounded-lg">
-              Call Now
-            </button>
-          </div>
-        </div>
-      </section>
+        <button className="mt-4 bg-white text-blue-600 px-4 py-2 rounded font-semibold">
+          Enroll Now
+        </button>
+      </div>
 
       {/* COURSES */}
       <section className="py-12 px-4 bg-gray-50">
@@ -41,9 +26,11 @@ export default function App() {
           <div className="grid gap-5 sm:grid-cols-2">
             {[
               "Mathematics",
-              "Science",
-              "English",
-              "Board Exam Preparation",
+              "Physics",
+              "Chemistry",
+              "Biology",
+              "Accountancy",
+              "Economics"
             ].map((course) => (
               <div className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-md transition">
                 <h3 className="text-lg font-medium">{course}</h3>
